@@ -6,6 +6,5 @@ const element = document.querySelectorAll('.flip-box-inner');
   });
 
   element.addEventListener('touchend', () => {
-
     element.classList.remove('touch-hover-effect');
   });
