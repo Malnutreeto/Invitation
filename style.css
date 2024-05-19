@@ -29,9 +29,16 @@ img:hover {
 
 @media only screen and (max-width: 768px) {
 
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 3px;
+  }
+  
   .flip-box{
-    padding-top: 3em;
-    padding-bottom: 10em;
     padding-left: 3em;
   }
 
