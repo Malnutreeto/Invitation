@@ -1,11 +1,11 @@
-const element = document.querySelectorAll('.flip-box');
+const element = document.querySelectorAll('.flip-box-inner');
 
 
-  element.addEventListener('touch', () => {
+  element.addEventListener('touchstart', () => {
     element.classList.add('touch-hover-effect');
   });
 
-  element.addEventListener('touch', () => {
+  element.addEventListener('touchend', () => {
 
     element.classList.remove('touch-hover-effect');
   });
