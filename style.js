@@ -5,7 +5,7 @@ const element = document.querySelectorAll('.flip-box');
     element.classList.add('touch-hover-effect');
   });
 
-  element.addEventListener('touch', {passive: false}, () => {
+  element.addEventListener('touch', () => {
 
     element.classList.remove('touch-hover-effect');
   });
